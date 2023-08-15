@@ -4,8 +4,10 @@
 	<link rel='stylesheet' href='form.css'>
 	<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Capriola&family=Fredericka+the+Great&family=Oleo+Script&family=Oxanium:wght@300&family=Play:wght@700&family=Wallpoet&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+</head>
 
-<body>
+	<body>
 	<div class='main-container'>
 		<div class='left-main-division'>
 			<div class='left-main-division-sub1'>
@@ -22,12 +24,17 @@
 
 		<div class='right-main-division'>
 			<div class='right-main-division-sub1'>
+				<div class='heading-section'>
+					<img src='pillar.png'>
+					<h1>COLUMN <br>GEEKS</h1>
+				</div>
+
 				<div class='intro1'>WE UNDERLINE ARCHITECTURAL BEAUTY</div>
-				<div class='intro2'>We have losts of <span>DESIGN</span> you can choose from <span>OR</span> Let us bring to life your <span>IMAGIANTION!</span></div>
+				<div class='intro2'>We have lots of <span>DESIGN</span> you can choose from <span>OR</span> Let us bring to life your <span>IMAGIANTION!</span></div>
 			</div>
 
 			<div class='right-main-division-sub2'>
-				<form>
+				<form id='login-form' method='POST'>
 					<div>
 						<label for='first-name'>FIRST NAME</label>
 						<input type='text' id='first-name' name='first-name'/>
@@ -45,7 +52,7 @@
 
 					<div>
 						<label for='phone-number'>PHONE NUMBER</label>
-						<input type='number' id='phone-number' name='phone-number'/>
+						<input type='tel' id='phone-number' name='phone-number'/>
 					</div>
 
 					<div>
@@ -59,6 +66,12 @@
 					</div>
 
 				</form>
+			</div>
+
+			<div class='right-main-division-sub3'> 
+				<button form='login-form'>Create Account</button>
+				<div>Already have account? <a href=''>Log in</a></div>
+
 			</div>
 		</div>
 	</div>
