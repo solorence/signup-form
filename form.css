@@ -2,7 +2,7 @@
 
 body{margin:0;}
 
-.main-container{display:flex; width:100vw; height:100vh;}
+.main-container{display:flex; width:100vw; min-height:100vh;}
 
 .left-main-division{width:30%; background-image:url(formbg.jpg); background-size:100% 100%; background-repeat:no-repeat;}
 
