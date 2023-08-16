@@ -2,7 +2,7 @@
 
 body{margin:0;}
 
-.main-container{display:flex; width:100vw; min-height:100vh;}
+.main-container{display:flex; width:100vw; height:100vh;}
 
 .left-main-division{width:30%; background-image:url(formbg.jpg); background-size:100% 100%; background-repeat:no-repeat;}
 
@@ -52,6 +52,7 @@ input:focus { /*border:1px solid #6C584C;*/ outline:none;}
 
 
 @media only screen and (max-width:800px){
+	.main-container{min-height:100vh;}
 	.left-main-division{display:none;}
 
 	.right-main-division{ width:100vw; }
