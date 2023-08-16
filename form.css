@@ -45,7 +45,7 @@ input:focus { border:2px solid #6C584C; outline:none;}
 .right-main-division-sub3 {height:25vh; display:flex; padding-Left:5%; flex-direction:column; justify-content:space-evenly;
 	font-family: 'Heebo', sans-serif; }
 
-.right-main-division-sub3 button{width:13vw; height:7vh; border-radius:5px; background-color:#6C584C;}
+.right-main-division-sub3 button{width:150px; height:7vh; border-radius:5px; background-color:#6C584C;}
 
 .right-main-division-sub3 a{text-decoration:none;}
 
@@ -56,7 +56,7 @@ input:focus { border:2px solid #6C584C; outline:none;}
 
 	.right-main-division{ width:100vw; }
 
-	.right-main-division .heading-section{ display:flex; }
+	.right-main-division .heading-section{ display:flex; background-image: url(formbgmobile.jpg); background-size: cover; background-repeat: no-repeat;}
 
 	.left-main-division-sub1{width:100%; justify-content:flex-start;}
 
@@ -65,4 +65,20 @@ input:focus { border:2px solid #6C584C; outline:none;}
 	.heading-section img{width:15%; height:80%}
 
 	.heading-section{height:65%}
+
+	form{flex-direction:column; row-gap:4%; justify-content: center; }
+
+	form div{width:70%; font-size:1.5vw}
+
+	.right-main-division-sub2{height:45vh; }
+
+	form div input{ padding:4px 1px;}
+
+ 	.intro1{ font-size: 3.5vw;}
+
+	.intro2{ font-size: 2vw; }
+
+	.right-main-division-sub3 {height:20vh; align-items: center;}
+
+
 }
