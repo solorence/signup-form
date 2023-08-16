@@ -27,7 +27,7 @@ body{margin:0;}
 	/*background:linear-gradient(to bottom, #AA9F95 20%, #221912,  #221912, #AA9F95 80%); -webkit-background-clip:text; 
 	color: transparent;*/ text-shadow:3px 3px 10px white, -3px -3px 10px white;}
 
-.intro2{font-family: 'Capriola', sans-serif; font-size: 1.2vw; background:linear-gradient(to bottom, #665648, white, #AA9F95);
+.intro2{font-family: 'Tangerine', cursive; font-size: 1.2vw; background:linear-gradient(to bottom, #665648, white, #AA9F95);
 	padding:3px 5px; border-radius:7px; color:#850208;}
 
 .intro2 span{font-weight: bold;}
