@@ -8,6 +8,8 @@ body{margin:0;}
 
 .right-main-division{ width:70%; }
 
+.right-main-division .heading-section{ display:none; }
+
 .left-main-division-sub1{height:35vh; display:flex; align-items:flex-end; text-align:center;}
 
 .heading-section{background-color:rgb(30,30,30,0.7); height:40%; width:100%; display:flex; justify-content:center; 
@@ -53,6 +55,8 @@ input:focus { border:2px solid #6C584C; outline:none;}
 	.left-main-division{display:none;}
 
 	.right-main-division{ width:100vw; }
+
+	.right-main-division .heading-section{ display:flex; }
 
 	.left-main-division-sub1{width:100%; justify-content:flex-start;}
 
