@@ -71,7 +71,7 @@ input:focus { /*border:1px solid #6C584C;*/ outline:none;}
 
 	form div{width:70%; font-size:1.5vw}
 
-	.right-main-division-sub2{height:45vh; }
+	.right-main-division-sub2{height:45vh; position:static;}
 
 	form div input{ padding:4px 1px;}
 
