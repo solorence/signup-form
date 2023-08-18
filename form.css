@@ -55,7 +55,7 @@ input:focus { /*border:1px solid #6C584C;*/ outline:none;}
 	.main-container {}
 	.left-main-division{display:none;}
 
-	.right-main-division{ width:100vw; height:auto;}
+	.right-main-division{ width:100vw; height:100vh;}
 
 	.right-main-division .heading-section{ display:flex; background-image: url(formbgmobile.jpg); background-size: cover; background-repeat: no-repeat;}
 
