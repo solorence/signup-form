@@ -52,7 +52,7 @@ input:focus { /*border:1px solid #6C584C;*/ outline:none;}
 
 
 @media only screen and (max-width:800px){
-	.main-container {}
+	.main-container{position:relative}
 	.left-main-division{display:none;}
 
 	.right-main-division{ width:100vw; height:100vh;}
