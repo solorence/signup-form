@@ -52,10 +52,10 @@ input:focus { /*border:1px solid #6C584C;*/ outline:none;}
 
 
 @media only screen and (max-width:800px){
-	.main-container {display:block; height:auto;}
+	.main-container {flex-direction:column;}
 	.left-main-division{display:none;}
 
-	.right-main-division{ width:100vw; }
+	.right-main-division{ width:100vw; height:100%}
 
 	.right-main-division .heading-section{ display:flex; background-image: url(formbgmobile.jpg); background-size: cover; background-repeat: no-repeat;}
 
